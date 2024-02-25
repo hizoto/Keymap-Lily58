@@ -66,7 +66,7 @@
 &kp GRAVE  &kp F4  &kp PG_DN  &kp UP_ARROW  &kp PG_UP        &trans                        &kp SLASH         &kp N7        &kp N8        &kp N9        &kp N0      &trans
 &trans     &kp F5  &kp LEFT   &kp DOWN      &kp RIGHT_ARROW  &kp INSERT                    &kp LS(NUMBER_1)  &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &kp RET     &trans
 &trans     &trans  &trans     &trans        &trans           &trans      &trans    &trans  &kp LS(NUMBER_3)  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp PERIOD  &kp RA(NON_US_BACKSLASH)
-                              &trans        &trans           &trans      &trans    &trans  &kp NUMBER_0      &trans        &trans
+                              &kp LEFT_ALT  &trans           &trans      &trans    &trans  &kp NUMBER_0      &trans        &trans
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN>;
