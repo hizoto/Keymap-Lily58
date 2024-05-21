@@ -62,11 +62,11 @@
 
             display-name = "Raise";
             bindings = <
-&trans                   &trans  &trans     &trans        &trans           &trans                             &trans            &trans        &trans        &trans        &trans      &trans
-&kp C_NEXT               &kp F4  &kp PG_DN  &kp UP_ARROW  &kp PG_UP        &kp EXCLAMATION                    &kp LS(N5)        &kp N7        &kp N8        &kp N9        &kp N0      &kp C_VOLUME_UP
-&kp C_PP                 &kp F5  &kp LEFT   &kp DOWN      &kp RIGHT_ARROW  &kp SLASH                          &kp LS(NUMBER_3)  &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &kp RET     &kp C_VOLUME_DOWN
-&mt LEFT_SHIFT C_REWIND  &kp F2  &trans     &trans        &kp INS          &trans           &trans    &trans  &kp LS(N7)        &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp PERIOD  &mt RIGHT_SHIFT C_MUTE
-                                            &trans        &trans           &trans           &trans    &trans  &kp NUMBER_0      &trans        &kp LEFT_ALT
+&trans    &trans  &trans     &trans        &trans           &trans                             &trans            &trans        &trans        &trans        &trans      &trans
+&trans    &kp F4  &kp PG_DN  &kp UP_ARROW  &kp PG_UP        &kp EXCLAMATION                    &kp LS(N5)        &kp N7        &kp N8        &kp N9        &kp N0      &kp C_VOLUME_UP
+&trans    &kp F5  &kp LEFT   &kp DOWN      &kp RIGHT_ARROW  &kp SLASH                          &kp LS(NUMBER_3)  &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &kp RET     &kp C_VOLUME_DOWN
+&kp C_PP  &kp F2  &trans     &trans        &kp INS          &trans           &trans    &trans  &kp LS(N7)        &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp PERIOD  &mt RIGHT_SHIFT C_MUTE
+                             &trans        &trans           &trans           &trans    &trans  &kp NUMBER_0      &trans        &kp LEFT_ALT
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN>;
